@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(../img/cinema.jpg);
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+
+.relogio{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+.digito{
+    width: 100px;
+    text-align: center;
+}
+
+.digito > h2 {
+    font-size: 6rem;
+    margin-bottom: -15px;
+}
+
+.digito > span {
+    margin-top: -20px;
+}
